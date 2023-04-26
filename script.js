@@ -29,12 +29,18 @@
 
 
 const number = document.getElementById("number");
+var res = 0;
 
 const incr = () => {
-    number.value += 1
+    res++;
+    number.innerHTML = res;
+
+
 };
 const decr = () => {
-    number >= 1 ? number.value -= 1: null
+    number.innerHTML > 1 ? res-- : null
+    
+    number.innerHTML = res;
 };
 
 
