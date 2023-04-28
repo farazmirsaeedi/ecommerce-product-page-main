@@ -183,12 +183,19 @@ p {
         justify-content: space-between;
         align-items: center;
         border: none;
+        
     }
     #number{
+        margin: 0px;
         text-align: center;
+        width: auto;
+        
     }
 
     .btn {
         width: 58%;
     }
+   .incdic:hover{
+       opacity: .7;
+   }
 }

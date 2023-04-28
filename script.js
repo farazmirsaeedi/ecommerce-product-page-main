@@ -29,7 +29,7 @@
 
 
 const number = document.getElementById("number");
-var res = 0;
+var res = 1;
 
 const incr = () => {
     res++;
