@@ -74,8 +74,9 @@ p {
 .pay {
     display: flex;
 }
-.takhfif{
-    
+
+.takhfif {
+
     margin: 4px 1rem;
     color: var(--Orange);
     background-color: var(--Pale-orange);
@@ -83,24 +84,29 @@ p {
     height: 20px;
 
 }
-.last{
+
+.last {
     margin-left: auto;
     color: var(--Dark-grayish-blue);
 }
-.inp{
+
+.inp {
     border: none;
 }
-.input{
+
+.input {
     margin: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: none;
 }
-.number{
+
+.number {
     font-size: 2rem;
 }
-.incdic{
+
+.incdic {
     font-size: 2rem;
     color: var(--Orange);
     font-weight: 700;
@@ -110,7 +116,8 @@ p {
     background-color: white;
     height: 100%;
 }
-.btn{
+
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,9 +126,69 @@ p {
     background-color: var(--Orange);
     color: white;
 }
-.card{
+
+.card {
     margin: 0 .5rem;
     background-color: var(--Orange);
     border: none;
     color: white;
+}
+
+@media (min-width:600px) {
+    #img-container-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5rem;
+        max-width: 1200px;
+
+    }
+
+    body {
+        min-height: 100vh;
+
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pay {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last {
+        margin-left: 0px;
+        font-size: 1.5rem;
+    }
+
+    .takhfif {
+        width: 30px;
+    }
+
+    .pay-cont {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        height: 50px;
+    }
+
+    .input {
+        width: 38%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+    }
+    #number{
+        text-align: center;
+    }
+
+    .btn {
+        width: 58%;
+    }
 }
