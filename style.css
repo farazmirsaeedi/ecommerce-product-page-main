@@ -116,6 +116,9 @@ p {
     background-color: white;
     height: 100%;
 }
+.incdic:hover{
+       opacity: .7;
+   }
 
 .btn {
     display: flex;
